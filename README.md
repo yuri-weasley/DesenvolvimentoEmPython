@@ -1,2 +1,2 @@
 # Desenvolvimento rápido de aplicações em Python
-Repositório de uma das matérias do semestre da faculdade
+Repositório da matéria de Desenvolvimento Rápido de Aplicações em Python da faculdadee
