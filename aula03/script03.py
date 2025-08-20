@@ -1,12 +1,12 @@
-# Criação da tabela Marca no banco de dados
+# Criação da tabela Veiculo no banco de dados
 
 import sqlite3 as conector
  
-  # Abertura de conexão e aquisição de cursor
+ # Abertura de conexão e aquisição de cursor
 conexao = conector.connect("./meu_banco.db")
 cursor = conexao.cursor()
  
-  # Execução de um comando: SELECT... CREATE ...
+ # Execução de um comando: SELECT... CREATE ...
 comando = '''CREATE TABLE Veiculo (
                   placa CHARACTER(7) NOT NULL,
                   ano INTEGER NOT NULL,
@@ -20,9 +20,9 @@ comando = '''CREATE TABLE Veiculo (
   
 cursor.execute(comando)
   
-   # Efetivação do comando
+# Efetivação do comando
 conexao.commit()
   
-   # Fechamento das conexões
+# Fechamento das conexões
 cursor.close()
 conexao.close()
