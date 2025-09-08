@@ -4,3 +4,4 @@ Repositório da matéria de Desenvolvimento Rápido de Aplicações em Python da
  - Aula 02: Manipulação de dados em arquivos
  - Aula 03: Python com banco de dados
  - Aula 04: Interface gráfica com python
+ - Aula 05: Aplicando RAD
